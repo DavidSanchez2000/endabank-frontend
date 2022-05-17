@@ -8,6 +8,7 @@ pipeline {
             cd /var/lib/jenkins/workspace/CI-CD-Endabank-Frontend/
             npm install --legacy-peer-deps
             npm run build
+            npm cache --force clean
           '''
       }
     }

@@ -17,7 +17,8 @@ code {
 }
 
 .color-endabank {
-  background-color: #DE411B;
+  /*background-color: #DE411B; */
+    background-color: #de1b1b;
 }
 
 button.color-endabank:hover {
